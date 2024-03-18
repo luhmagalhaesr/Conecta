@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologia Conecta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tecnologia Conecta</h1>
+        <nav>
+            <ul>
+                <li><a href="#produto">Produto</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="produto">
+        <h2>Conecte-se com profissionais de tecnologia</h2>
+        <div class="produto-images">
+            <img src="fotos/produto1.jpg" alt="Tecnologia Conecta">
+            <img src="fotos/produto2.jpg" alt="Tecnologia Conecta">
+        </div>
+        <p>Tecnologia Conecta é uma plataforma de networking para profissionais da área de tecnologia. Conecte-se com outros profissionais, compartilhe conhecimento e encontre oportunidades de trabalho.</p>
+    </section>
+    
+    <section id="equipe">
+        <h2>Equipe</h2>
+        <div class="equipe-member">
+            <img src="fotos/joaosilva.jpg" alt="Membro da Equipe - CEO">
+            <h3>João Silva</h3>
+            <p>CEO</p>
+        </div>
+        <div class="equipe-member">
+            <img src="fotos/mariaoliveira.jpg" alt="Membro da Equipe - Desenvolvedor">
+            <h3>Maria Oliveira</h3>
+            <p>Desenvolvedora</p>
+        </div>
+        <div class="equipe-member">
+            <img src="fotos/pedrosantos.jpg" alt="Membro da Equipe - Designer">
+            <h3>Pedro Santos</h3>
+            <p>Designer</p>
+        </div>
+    </section>
+    
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="submit.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade">
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado">
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
