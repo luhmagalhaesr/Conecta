@@ -52,7 +52,7 @@ section {
 
 .equipe-member img {
     width: 200px;
-    border-radius: 50%;
+    border-radius: 20px;
 }
 
 form {
@@ -69,6 +69,7 @@ button {
     background-color: #333;
     color: #fff;
     border: none;
+    border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
 }
